@@ -255,7 +255,7 @@ function DeviceQueue(props: IProps) {
                 <Switch />
               </Form.Item>
               <Form.Item name="fPort" label="FPort">
-                <InputNumber min={1} max={254} defaultValue={null} />
+                <InputNumber min={1} max={254} />
               </Form.Item>
               <Form.Item
                 name="isEncrypted"
